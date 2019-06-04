@@ -1,3 +1,37 @@
+/* Спецификация */
+
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0;
+}
+
+div, p, form, input, a, span, button,section {
+	box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-bottom: 1.7em;
+}
+
+ul,li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1.45em;
 }

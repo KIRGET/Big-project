@@ -1,4 +1,4 @@
-/* Спецификация */
+/*--------------------- Спецификация ------------------------ */
 
 body {
     margin: 0;
@@ -35,3 +35,27 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 900;
     line-height: 1.45em;
 }
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+
+
+
+/*---------------------- header section ------------------------ */
+.header {
+    background: #f0f7f7 url('../img/firs.png') no-repeat center top / cover;
+}
+
+
+
+/*---------------------- /header section ------------------------ */

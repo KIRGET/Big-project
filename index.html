@@ -27,8 +27,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap&subset=cyrillic" rel="stylesheet">
     <!------ /add fonts ----->
 
-
-
     <link href="css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2d788faf5a.js"></script>
 
@@ -36,63 +34,159 @@
 <body>
 
     <header class="header" id="header">
-        <div class="header__fon"></div>
-        <div class="header__nav">
-            <div class="header__logo">
-                <div class="header__plug">
-                    <i class="fas fa-plug"></i>
+        <div class="nav">
+            <div class="container nav__container d-flex justify-content-between">
+                <div class="nav__plug"><i class="fas fa-plug"></i></div>
+                <p class="nav__text">Моя школа <span class="nav__verst">верстки</span></p>
+                <!-- ------------------------------------------------------- -->
+                <ul class="nav__list d-flex">
+                    <li class="nav__item"><a href="#">Знаете ли вы</a></li>
+                    <li class="nav__item"><a href="#">Зачем</a></li>
+                    <li class="nav__item"><a href="#">Кому</a></li>
+                    <li class="nav__item"><a href="#">Регистрация</a></li>
+                </ul>
+                <!-- ------------------------------------------------------- -->
+                <div class="nav__phone">
+                    <i class="fas fa-phone"></i>
+                    <a class="nav__number" href="tel:+756756412">+7(495) 567-564-12</a>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------------------>
+        <div class="fon">
+            <div class="container fon__container d-flex justify-content-around">
+                <div class="fon__block">
+                    <div class="fon__icon"><i class="fas fa-graduation-cap"></i>
+                        Онлайн-мастер-класс
+                    </div>
+                    <h1 class="fon__title"><span class="letter">Я</span> — профессиональный веб-верстальщик</h1>
+                    <p class="fon__date">9 апреля в 18:00</p>
                 </div>
 
-                <p class="header__school">Моя школа<span class="header__verst">верстки</span></p>
+                <form class="form" action="url">
+                    <h3 class="form__title">Забронировать участие</h3>
+                    <p class="form__text">Чтобы стать профессионалом в  HTML и CSS, а также делать WOW</p>
+
+
+                    <div class="form__box">
+                        <input class="form__input" placeholder="Введите имя">
+                    </div>
+
+                    <div class="form__box">
+                        <input class="form__input" placeholder="Введите E-mail">
+                    </div>
+
+                    <div class="form__box">
+                        <input class="form__input" placeholder="Введите телефон">
+                    </div>
+
+                    <div class="form__bttn">
+                        <a href="url" class="btn">Оставить заявку</a>
+                    </div>
+                    <p class="form__data">Ваши данные под защитой</p>
+
+                </form>
             </div>
-
-            <ul class="header__list">
-                <li class="know">Знаете ли вы</li>
-                <li class="why">Зачем</li>
-                <li class="hum">Кому</li>
-                <li class="reg">Регистрация</li>
-            </ul>
-
-            <div class="telefon">
-                <i class="fas fa-phone"></i>
-                <a href="tel:+756756412">+7(495) 567-564-12</a>
-            </div>
-
-
-
-        </div>
-        <div class="container">
         </div>
     </header>
-<!-------------------------------------------------------->
+    <!------------------------------------------------------------------------->
 
     <section class="know" id="know">
         <div class="container">
+            <div class="speaker d-flex justify-content-around ">
+                <div class="speaker-box">
+                    <div class="speaker__item">
+                        <h4 class="speaker__name">Kirill Topchienko</h4>
+                        <p class="speaker__freelance">Ведущий мастер-класса</p>
+                        <p class="speaker__freelance">Веб-верстальщик и фрилансер</p>
+                    </div>
+                    <div class="speaker__text d-flex justify-content-between">
+                        <div class="speaker__num">100+</div>
+                        <p class="speaker__bild">Созданных сайтов</p>
+                        <div class="speaker__experience">
+                            8</div>
+                            <p class="experience">Лет опыта</p>
+                        </div>
+                        <p class="know-more">Узнать больше</p>
+                    </div>
 
-        </div>
-    </section>
-<!-------------------------------------------------------->
+                    <div class="question">
+                        <h2 class="question__title">Знаете ли вы?</h2>
+                        <p class="question__text">По статистике, среднестатистический фрилансер зарабатывает около <span class="rubl">30 тысяч рублей</span> в месяц. Чаще всего, гораздо меньше этой цифры.</p>
+                    </div>
+                </div>
+                <!-- ---------------------------------------------------------->
 
-    <section class="show" id="show">
-        <div class="container">
+                <div class="question-main d-flex justify-content-around ">
+                    <div class="question__second">
+                        <h2 class="question__title">Хм...</h2>
+                        <p class="question__text">Почему же так мало? Чего не хватает фрилансерам, чтобы "пробить потолок" хотя бы....</p>
+                    </div>
 
-        </div>
-    </section>
-<!-------------------------------------------------------->
+                    <div class="money">
+                        <div class="money__item">$1000 <span class="money__month">в месяц?</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <!----------------------------------------------------------------------->
+      <section class="show" id="show">
+          <div class="show__fon">
+              <div class="container show__container">
+                  <h4 class="can__title">Я покажу,
+                      как мне удается...</h4>
+                      <div class="can d-flex justify-content-between">
+
+                          <div class="can__item d-flex">
+                              <div class="can__one">
+                                  <div class="can__select">1</div>
+                              </div>
+                              <div class="can__money">
+                                  <h5 class="can__text">Зарабатывать тысячи долларов </h5>
+                                  <p class="can__help">Исключительно с помощью веб-верстки и навыков разработки сайтов</p>
+                              </div>
+                          </div>
+   <!-------------------------------------------------------------------------->
+
+                          <div class="can__item d-flex">
+                              <div class="can__one">
+                                  <div class="can__select">1</div>
+                              </div>
+                              <div class="can__money">
+                                  <h5 class="can__text">Зарабатывать тысячи долларов </h5>
+                                  <p class="can__help">Исключительно с помощью веб-верстки и навыков разработки сайтов</p>
+                              </div>
+                          </div>
+   <!-------------------------------------------------------------------------->
+
+                          <div class="can__item d-flex">
+                              <div class="can__one">
+                                  <div class="can__select">1</div>
+                              </div>
+                              <div class="can__money">
+                                  <h5 class="can__text">Зарабатывать тысячи долларов </h5>
+                                  <p class="can__help">Исключительно с помощью веб-верстки и навыков разработки сайтов</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+   <!-------------------------------------------------------------------------->
 
     <section class="if" id="if">
         <div class="container">
 
         </div>
     </section>
-<!-------------------------------------------------------->
+<!----------------------------------------------------------------------------->
 
     <section class="order" id="order">
         <div class="container">
 
         </div>
     </section>
-<!-------------------------------------------------------->
+<!----------------------------------------------------------------------------->
 
     <footer class="footer" id="footer">
         <div class="container">

@@ -50,13 +50,17 @@ a {
     justify-content: space-around;
 }
 
+.justify-content-flex-start {
+    justify-content: flex-start;
+}
+
 /*---------------------- header section ------------------------ */
 .fon {
     background:  url('../img/firs.png') no-repeat center top / cover;
 }
 
 .nav {
-    padding: 23px 0 27px;
+    padding: 16px 0 27px;
     align-items: center;
     background: #fff;
     box-shadow: inset 0 -10px 10px 0 rgba(0,0,0,0.10);
@@ -64,6 +68,7 @@ a {
 
 .nav__container {
     align-items: center;
+
 }
 
 .nav__plug {
@@ -77,21 +82,21 @@ a {
 .nav__plug {
     font-size: 30px;
     color: #fff;
-    padding: 9px 13px 14px;
+    padding: 9px 0px;
 }
 
 .nav__text {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5em;
     color: #1b3bde;
-    padding: 0 14px;
+    padding: 0 10px;
 }
 
 .nav__verst {
     display: block;
-    font-size: 24px;
+    font-size: 23px;
     color: #1b3bde;
     font-weight: 700;
 }
@@ -101,7 +106,7 @@ a {
     font-size: 13px;
     transition: 0.2s;
     border: 1px solid #fff;
-    padding: 8px 20px;
+    padding: 5px 30px;
     border-radius: 5px;
 }
 
@@ -124,31 +129,31 @@ a {
 }
 
 .nav__number:hover {
-    color: rgba(0,0,0,0.50);
+    border-bottom: 2px dotted rgba(0,0,0,0.50);
+}
+
+.nav__low {
+    margin-left: 145px;
+    font-size: 12px;
 }
 
 /* ---------------------------------------------- */
 
 .fon__container {
-    padding-top: 90px;
+    padding: 90px 0 135px;
 }
 
 .fon__icon {
     font-size: 16px;
     font-weight: 300;
-    padding-top: 113px;
-    padding-bottom: 30px
-}
-
-.fon__title {
-    padding-bottom: 25px;
+    padding: 100px 0 21px;
 }
 
 .fon__date {
     display: inline-block;
     font-size: 14px;
     border: 1px solid #000;
-    padding: 8px;
+    padding: 3px 18px;
     border-radius: 5px;
     color: #fff;
     background-color: #000;
@@ -161,13 +166,14 @@ a {
 }
 
 .letter {
-    font-size: 48px;
+    font-size: 44px;
 }
 
 .fon__title {
-    font-size: 38px;
+    font-size: 41px;
     letter-spacing: 0.1em;
     color: #1b3bde;
+    padding-bottom: 19px;
 }
 
 /* -------------------------------------------- */
@@ -176,11 +182,10 @@ a {
     border: 1px solid;
     width: 340px;
     padding: 25px 30px 27px;
-    margin-bottom: 135px;
     border-radius: 5px;
     border: 1px;
     background: #fff;
-    box-shadow: 20px 20px 20px #ccc;
+    box-shadow: 10px 0px 53px rgba(0,0,0,0.4);
 }
 
 .form__title {
@@ -190,7 +195,7 @@ a {
 
 .form__text {
     text-align: center;
-    padding-bottom: 35px
+    padding-bottom: 23px;
 }
 
 .form__emale {
@@ -225,6 +230,7 @@ a {
 }
 
 .form__data {
+    font-size: 12px;
     padding-top: 15px;
     text-align: center;
 }
@@ -237,35 +243,33 @@ a {
     width: 100%;
     font-size: 14px;
     color: #bdbdbd;
-    padding: 0 0 10px 0;
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
     outline: none;
     transition: 0.3s;
     cursor: pointer;
 }
 
-.form__input:hover {
-    font-size: 15px;
+.form__input:focus {
+    font-size: 14px;
     color: #000;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 /*---------------------- /header section ------------------------ */
 
 .know {
-    padding-top: 117px;
-    padding-bottom: 117px;
+    padding: 124px 0 121px;
     background: #fff;
 }
 
 .speaker {
-    padding-bottom: 64px;
+    margin-bottom: 65px;
 }
 
 .speaker-box {
-    width: 470px;
-    padding: 40px 110px 40px 50px;
+    width: 443px;
+    padding: 24px 97px 40px 35px;
     background: #9d6bdc;
     border-radius: 7px;
     color: #fff;
@@ -319,14 +323,14 @@ a {
 /* ------------------------------------------------- */
 
 .question {
-    width: 593px;
+    width: 600px;
     padding: 60px 57px 80px 60px;
 }
 
 .question__title {
     font-size: 28px;
     font-weight: 900;
-    padding-bottom: 16px;
+    padding-bottom: 18px;
 }
 
 .rubl {
@@ -355,7 +359,7 @@ a {
 
 .money__month {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     color: #000;
     text-align: center;
@@ -364,7 +368,7 @@ a {
 
 .question__second {
     width: 661px;
-    padding: 73px;
+    padding: 66px 22px 0px 129px;
 }
 
 /* ------------------------------------------------------- */
@@ -374,18 +378,20 @@ a {
 }
 
 .show__container{
-    padding: 100px 0 100px;
+    padding: 102px 0 100px;
 }
+
+/* ------------------------------------------ */
 
 .can__title {
     width: 270px;
     font-size: 28px;
-    padding-bottom: 70px;
+    padding-bottom: 66px;
     white-space: pre-line;
 }
 
 .can__item {
-    width: 340px;
+    width: 370px;
 }
 
 .can__select {
@@ -401,10 +407,166 @@ a {
 .can__text {
     font-size: 19px;
     color: #1b3bde;
-    padding: 24px;
-    padding: 16px 0 10px 24px;
+    padding-bottom: 6px;
 }
 
-.can__help {
-    padding: 0 0 0 24px
+.can__money {
+    padding: 16px 23px 0 30px;
+}
+
+/* --------------------------------------------- */
+
+.work {
+    width: 310px
+}
+
+.work__select {
+    display: inline-block;
+    font-size: 31px;
+    font-weight: 700;
+    color: #fff;
+    padding: 24px 35px;
+    background: #1b3bde;
+    border-radius: 5px;
+}
+
+.work__travel {
+    font-size: 19px;
+    color: #1b3bde;
+    padding-bottom: 6px;
+}
+
+.work__money {
+    padding: 16px 19px 0 30px;
+}
+
+/* ------------------------------------------------ */
+
+.step {
+    width: 343px;
+}
+
+.step__select {
+    display: inline-block;
+    font-size: 31px;
+    font-weight: 700;
+    color: #fff;
+    padding: 24px 35px;
+    background: #1b3bde;
+    border-radius: 5px;
+}
+
+.step__text {
+    font-size: 19px;
+    color: #1b3bde;
+    padding-bottom: 6px;
+}
+
+.step__next {
+    padding: 16px 5px 0 30px;
+}
+
+/* ------------------------------------------------- */
+.if__container {
+    font-size: 28px;
+    padding: 90px 0 102px 0;
+}
+
+.biginner {
+    width: 350px;
+    padding: 68px 112px;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+    background: #4acc4d;
+    transition: 0.2s;
+}
+
+.biginner:hover {
+    box-shadow: 10px 0px 53px rgba(0,0,0,0.3);
+}
+
+.biginer__text {
+    padding: 20px 0 0px;
+}
+
+.if__title {
+    padding-bottom: 70px;
+}
+
+/* -------------------------------------------------- */
+
+.finance {
+    width: 350px;
+    padding: 60px 79px;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+    background: #4ac7cc;
+    transition: 0.2s;
+}
+
+.finance:hover {
+    box-shadow: 10px 0px 53px rgba(0,0,0,0.3);
+}
+
+.finance__text {
+    padding: 20px 0 0px;
+}
+
+
+/* ---------------------------------------------------- */
+
+.freelance {
+    width: 350px;
+    padding: 60px 69px;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+    background: #dc6b83;
+    transition: 0.2s;
+}
+
+.freelance:hover {
+    box-shadow: 10px 0px 53px rgba(0,0,0,0.3);
+}
+
+
+
+.freelance__text {
+    padding: 20px 0 0px;
+}
+
+/* ------------------------------------------------------ */
+
+.order__fon {
+    background:  url('../img/second-bg.png') no-repeat center top / cover;
+}
+
+.order__container {
+    padding: 90px 0 118px 0;
+}
+
+.order-block {
+    text-align: center;
+    color: #fff;
+}
+
+.far,
+.fas {
+    padding: 0 10px 0 15px;
+}
+
+.order_icon {
+    padding: 105px 0 34px;
+}
+
+.order__title {
+    width: 565px;
+    font-size: 28px;
+}
+
+.order__time {
+    display: -webkit-inline-box;
+    padding: 23px 0 0 42px;
 }

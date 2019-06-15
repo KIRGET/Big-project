@@ -1,279 +1,256 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content=" ввести описание сайта">
-    <meta name="keywords" content="о чем сайт">
-    <!----- favicon ------->
-    <link rel="icon" href="img/student.png" type="image/ico"><!--мини иконка-->
-    <link rel="shortcut icon" href="image/student.png" type="image/ico">
-    <!-----/ favicon ------->
+<head>
+<!-- Required meta tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content=" ввести описание сайта">
+<meta name="keywords" content="о чем сайт">
+<!----- favicon ------->
+<link rel="icon" href="img/student.png" type="image/ico"><!--мини иконка-->
+<link rel="shortcut icon" href="image/student.png" type="image/ico">
+<!-----/ favicon ------->
 
-    <!------ og tags ------>
-    <meta property="og:title" content="комерческое предлложение">
-    <meta property="og:description" content="скидки">
-    <meta property="og:type" content="article">
-    <meta property="og:image" content="не более 700px в формате jpg">
-    <meta property="og:site_name" content="название сайта">
-    <!------/ og tags ------>
-    <title>Topchienko Kirill</title>
-    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
-    </script><![endif]-->
+<!------ og tags ------>
+<meta property="og:title" content="комерческое предлложение">
+<meta property="og:description" content="скидки">
+<meta property="og:type" content="article">
+<meta property="og:image" content="не более 700px в формате jpg">
+<meta property="og:site_name" content="название сайта">
+<!------/ og tags ------>
+<title>Topchienko Kirill</title>
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script><![endif]-->
 
-    <!------ add fonts ----->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap&subset=cyrillic" rel="stylesheet">
-    <!------ /add fonts ----->
+<!------ add fonts ----->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+<!------ /add fonts ----->
 
-    <link href="css/style.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/2d788faf5a.js"></script>
+<link href="css/style.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2d788faf5a.js"></script>
 
 </head>
 <body>
 
     <header class="header" id="header">
         <div class="nav">
-            <div class="container nav__container d-flex justify-content-between">
-                <div class="nav__plug"><i class="fas fa-plug"></i></div>
-                <p class="nav__text">Моя школа <span class="nav__verst">верстки</span></p>
-                <!----------------------------------------------------------->
-                <ul class="nav__list d-flex">
-                    <li class="nav__item"><a href="#">Знаете ли вы</a></li>
-                    <li class="nav__item"><a href="#">Зачем</a></li>
-                    <li class="nav__item"><a href="#">Кому</a></li>
-                    <li class="nav__item"><a href="#">Регистрация</a></li>
+            <div class="container nav__container d-flex justify-content-flex-start">
+                <div class="logo d-flex">
+                    <div class="logo__icon"><i class="fas fa-plug"></i></div>
+                    <p class="logo__text">Моя школа <span class="logo__verst">верстки</span></p>
+                </div>
+                <!------------------------- nav ------------------------------->
+                <ul class="list d-flex">
+                    <li class="list__item"><a href="#">Знаете ли вы</a></li>
+                    <li class="list__item"><a href="#">Зачем</a></li>
+                    <li class="list__item"><a href="#">Кому</a></li>
+                    <li class="list__item"><a href="#">Регистрация</a></li>
                 </ul>
-                <!----------------------------------------------------------->
+                <!------------------------ phone ------------------------------>
                 <div class="nav__phone">
-                    <i class="fas fa-phone"></i>
-                    <a class="nav__number" href="tel:+756756412">+7(495) 567-564-12</a>
+                    <a class="nav__number" href="tel:+756756412"><i class="fas fa-phone"></i>
+                        +7(495) 567-564-12</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- ------------------------------------------------------------------>
-        <div class="fon">
-            <div class="container fon__container d-flex justify-content-around">
-                <div class="fon__block">
-                    <div class="fon__icon"><i class="fas fa-graduation-cap"></i>
-                        Онлайн-мастер-класс
-                    </div>
-                    <h1 class="fon__title"><span class="letter">Я</span> — профессиональный веб-верстальщик</h1>
-                    <p class="fon__date">9 апреля в 18:00</p>
-                </div>
-
-                <form class="form" action="url">
-                    <h3 class="form__title">Забронировать участие</h3>
-                    <p class="form__text">Чтобы стать профессионалом в  HTML и CSS, а также делать WOW</p>
-
-
-                    <div class="form__box">
-                        <input class="form__input" placeholder="Введите имя">
-                    </div>
-
-                    <div class="form__box">
-                        <input class="form__input" placeholder="Введите E-mail">
-                    </div>
-
-                    <div class="form__box">
-                        <input class="form__input" placeholder="Введите телефон">
-                    </div>
-
-                    <div class="form__bttn">
-                        <a href="url" class="btn">Оставить заявку</a>
-                    </div>
-                    <p class="form__data">Ваши данные под защитой</p>
-
-                </form>
-            </div>
-        </div>
-    </header>
-    <!------------------------------------------------------------------------->
-
-    <section class="know" id="know">
-        <div class="container know__container">
-            <div class="speaker d-flex justify-content-around ">
-                <div class="speaker-box">
-                    <div class="speaker__item">
-                        <h4 class="speaker__name">Kirill Topchienko</h4>
-                        <p class="speaker__freelance">Ведущий мастер-класса</p>
-                        <p class="speaker__freelance">Веб-верстальщик и фрилансер</p>
-                    </div>
-                    <div class="speaker__text d-flex justify-content-between">
-                        <div class="speaker__num">100+</div>
-                        <p class="speaker__bild">Созданных сайтов</p>
-                        <div class="speaker__experience">
-                            8</div>
-                            <p class="experience">Лет опыта</p>
+            <!-- ------------------------- offer ------------------------------>
+            <div class="fon">
+                <div class="container fon__container d-flex justify-content-around">
+                    <div class="fon__block">
+                        <div class="fon__icon"><i class="fas fa-graduation-cap"></i>
+                            Онлайн-мастер-класс
                         </div>
-                        <p class="know-more">Узнать больше</p>
+                        <h1 class="fon__title"><span class="letter">Я</span> — профессиональный веб-верстальщик</h1>
+                        <p class="fon__date">9 апреля в 18:00</p>
                     </div>
 
-                    <div class="question">
-                        <h2 class="question__title">Знаете ли вы?</h2>
-                        <p class="question__text">По статистике, среднестатистический фрилансер зарабатывает около <span class="rubl">30 тысяч рублей</span> в месяц. Чаще всего, гораздо меньше этой цифры.</p>
-                    </div>
-                </div>
-                <!-- ---------------------------------------------------------->
+                    <form class="form" action="url">
+                        <h3 class="form__title">Забронировать участие</h3>
+                        <p class="form__text">Чтобы стать профессионалом в  HTML и CSS, а также делать WOW</p>
 
-                <div class="question-main d-flex justify-content-around ">
-                    <div class="question__second">
-                        <h2 class="question__title">Хм...</h2>
-                        <p class="question__text">Почему же так мало? Чего не хватает фрилансерам, чтобы "пробить потолок" хотя бы....</p>
-                    </div>
 
-                    <div class="money">
-                        <div class="money__item">$1000 <span class="money__month">в месяц?</span></div>
-                    </div>
+                        <div class="form__box">
+                            <input class="form__input" placeholder="Введите имя">
+                            <input class="form__input" placeholder="Введите E-mail">
+                            <input class="form__input" placeholder="Введите телефон">
+                        </div>
+                        <button formaction="handler.php" type="button" class="form__bttn">Оставить заявку</button>
+                        <p class="form__data">Ваши данные под защитой</p>
+                    </form>
                 </div>
             </div>
-        </section>
-      <!----------------------------------------------------------------------->
-      <section class="show" id="show">
-          <div class="show__fon">
-              <div class="container show__container">
-                  <h3 class="can__title">Я покажу,
-                      как мне удается...</h3>
-   <!-------------------------------------------------------------------------->
-                      <div class="can d-flex justify-content-between">
-                          <div class="can__item d-flex">
-                              <div class="can__one">
-                                  <div class="can__select">1</div>
-                              </div>
-                              <div class="can__money">
-                                  <h5 class="can__text">Зарабатывать тысячи долларов </h5>
-                                  <p class="can__help">Исключительно с помощью веб-верстки и навыков разработки сайтов</p>
-                              </div>
-                          </div>
-   <!-------------------------------------------------------------------------->
+        </header>
+        <!------------------------- speaker ----------------------------------->
 
-                          <div class="work d-flex">
-                              <div class="work__can">
-                                  <div class="work__select">2</div>
-                              </div>
-                              <div class="work__money">
-                                  <h5 class="work__travel">Работать
-                                       в путешествиях </h5>
-                                  <p class="work__mac">Без возврата домой, используя ноутбук и все возможности фриланса</p>
-                              </div>
-                          </div>
-   <!-------------------------------------------------------------------------->
+        <section class="know" id="know">
+            <div class="container know__container">
+                <div class="speaker d-flex justify-content-around ">
+                    <div class="speaker-box">
+                        <div class="speaker__item">
+                            <h4 class="speaker__name">Kirill Topchienko</h4>
+                            <p class="speaker__freelance">Ведущий мастер-класса</p>
+                            <p class="speaker__freelance">Веб-верстальщик и фрилансер</p>
+                        </div>
+                        <div class="speaker__text d-flex justify-content-between">
+                            <div class="speaker__num">100+</div>
+                            <p class="speaker__bild">Созданных сайтов</p>
+                            <div class="speaker__experience">
+                                8</div>
+                                <p class="experience">Лет опыта</p>
+                            </div>
+                            <p class="know-more">Узнать больше</p>
+                        </div>
 
-                          <div class="step d-flex">
-                              <div class="step__one">
-                                  <div class="step__select">3</div>
-                              </div>
-                              <div class="step__next">
-                                  <h5 class="step__text">Быть на шаг впереди конкурентов</h5>
-                                  <p class="step__strategy">Используя проверенные стратегии развития, общения и работы с клиентом</p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </section>
-   <!-------------------------------------------------------------------------->
+                        <div class="question">
+                            <h2 class="question__title">Знаете ли вы?</h2>
+                            <p class="question__text">По статистике, среднестатистический фрилансер зарабатывает около <span class="rubl">30 тысяч рублей</span> в месяц. Чаще всего, гораздо меньше этой цифры.</p>
+                        </div>
+                    </div>
+                    <!-- ----------------- ???????????? ----------------------->
 
-   <section class="if" id="if">
-       <div class="container if__container">
-           <h4 class="if__title">Если вы</h4>
-           <div class="you d-flex justify-content-between">
+                    <div class="amount d-flex justify-content-around ">
+                        <div class="question">
+                            <h2 class="question__title">Хм...</h2>
+                            <p class="question__text">Почему же так мало? Чего не хватает фрилансерам, чтобы "пробить потолок" хотя бы....</p>
+                        </div>
 
-               <div class="biginner">
-                   <div class="biginer__icon">
-                       <i class="fas fa-flag"></i>
-                       <p class="biginer__text">Начинающий веб-верстальщик</p>
-                   </div>
-
-               </div>
-
-               <!--------------------------------------------------------------->
-               <div class="finance">
-                   <div class="finance__icon">
-                       <i class="fas fa-money-bill-alt"></i>
-                       <p class="finance__text">Не довольны доходами на фрилансе</p>
-                   </div>
-               </div>
-        <!--------------------------------------------------------------------->
-               <div class="freelance">
-                   <div class="freelance__icon">
-                       <i class="fas fa-frown"></i>
-                       <p class="freelance__text">На фрилансе &gt;2 лет, но ваш доход &lt;$1000</p>
-                   </div>
-               </div>
-           </div>
-       </div>
-   </section>
-<!----------------------------------------------------------------------------->
-
-<section class="order" id="order">
-    <div class="order__fon">
-        <div class="container order__container d-flex justify-content-around">
-            <!------------------------------------------->
-            <div class="order-block">
-                <div class="order_icon"><i class="fas fa-graduation-cap"></i>
-                    Онлайн-мастер-класс
+                        <div class="money d-flex">
+                            <div class="money__item">$1000 <span class="money__month">в месяц?</span></div>
+                        </div>
+                    </div>
                 </div>
-                <h3 class="order__title">Не потеряйте уникальную возможность. Бронируйте участие уже сегодня!</h3>
-                <div class="order__time">
-                    <div class="order__x"><i class="far fa-clock"></i>9 апреля в 18:00</div>
-                    <div class="order__y"><i class="fas fa-users"></i>Всего 40 мест</div>
-                </div>
-            </div>
-            <!-- ------------------------------------------------------->
+            </section>
+            <!------------------------------ i show you ----------------------->
+            <section class="show" id="show">
+                <div class="container show__container">
+                    <h3 class="can__title">Я покажу,
+                        как мне удается...</h3>
+                        <!----------------------------------------------------->
+                        <div class="can d-flex justify-content-between">
+                            <div class="can__item d-flex">
+                                <div class="can__one">
+                                    <div class="can__select">1</div>
+                                </div>
+                                <div class="can__money">
+                                    <h5 class="can__text">Зарабатывать тысячи долларов </h5>
+                                    <p class="can__help">Исключительно с помощью веб-верстки и навыков разработки сайтов</p>
+                                </div>
+                            </div>
+                            <!------------------------------------------------->
 
-            <form class="form" action="url">
-                <h3 class="form__title">Забронировать участие</h3>
-                <p class="form__text">Чтобы стать профессионалом в  HTML и CSS, а также делать WOW</p>
+                            <div class="can__item d-flex">
+                                <div class="can__one">
+                                    <div class="can__select">2</div>
+                                </div>
+                                <div class="can__money">
+                                    <h5 class="can__text">Работать в путешествиях </h5>
+                                    <p class="can__help">Без возврата домой, используя ноутбук и все возможности фриланса</p>
+                                </div>
+                            </div>
+                            <!------------------------------------------------->
+
+                            <div class="can__item d-flex">
+                                <div class="can__one">
+                                    <div class="can__select">3</div>
+                                </div>
+                                <div class="can__money">
+                                    <h5 class="can__text">Быть на шаг впереди конкурентов </h5>
+                                    <p class="can__help">Используя проверенные стратегии развития, общения и работы с клиентом</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!---------------------- features ----------------------------->
+
+                <section class="if" id="if">
+                    <div class="container if__container">
+                        <h4 class="if__title">Если вы</h4>
+                        <div class="you d-flex justify-content-between">
+
+                            <div class="you-item d-flex">
+                                <div class="fas fa-flag"></div>
+                                <p class="you-item__text">Начинающий веб-верстальщик</p>
+                            </div>
+
+                            <!------------------------------------------------->
+                            <div class="you-item you-item__blue d-flex">
+                                <div class="fas fa-money-bill-alt"></div>
+                                <p class="you-item__finance">Не довольны доходами на фрилансе</p>
+                            </div>
+                            <!------------------------------------------------->
+                            <div class=" you-item you-item__red d-flex">
+                                <div class="fas fa-frown"></div>
+                                <p class="you-item__freelance">На фрилансе &gt;2 лет, но ваш доход &lt;$1000</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!------------------------------------------------------------->
+
+                <section class="order" id="order">
+                    <div class="order__fon">
+                        <div class="container order__container d-flex justify-content-around">
+                            <!-----------------master class ------------------->
+                            <div class="order-block">
+                                <div class="order_icon"><i class="fas fa-graduation-cap"></i>
+                                    Онлайн-мастер-класс
+                                </div>
+                                <h3 class="order__title">Не потеряйте уникальную возможность. Бронируйте участие уже сегодня!</h3>
+                                <div class="order__time">
+                                    <div class="order__x"><i class="far fa-clock"></i>9 апреля в 18:00</div>
+                                    <div class="order__y"><i class="fas fa-users"></i>Всего 40 мест</div>
+                                </div>
+                            </div>
+                            <!-- ----------------form reg 2 ------------------->
+
+                            <form class="form" action="url">
+                                <h3 class="form__title">Забронировать участие</h3>
+                                <p class="form__text">Чтобы стать профессионалом в  HTML и CSS, а также делать WOW</p>
 
 
-                <div class="form__box">
-                    <input class="form__input" placeholder="Введите имя">
-                </div>
+                                <div class="form__box">
+                                    <input class="form__input" placeholder="Введите имя">
+                                </div>
 
-                <div class="form__box">
-                    <input class="form__input" placeholder="Введите E-mail">
-                </div>
+                                <div class="form__box">
+                                    <input class="form__input" placeholder="Введите E-mail">
+                                </div>
 
-                <div class="form__box">
-                    <input class="form__input" placeholder="Введите телефон">
-                </div>
+                                <div class="form__box">
+                                    <input class="form__input" placeholder="Введите телефон">
+                                </div>
 
-                <div class="form__bttn">
-                    <a href="url" class="btn">Оставить заявку</a>
-                </div>
-                <p class="form__data">Ваши данные под защитой</p>
+                                <div class="form__bttn">
+                                    <a href="url" class="btn">Оставить заявку</a>
+                                </div>
+                                <p class="form__data">Ваши данные под защитой</p>
 
-            </form>
-            <!-- ---------------------------------------->
-        </div>
-    </div>
-</section>
-<!----------------------------------------------------------------------------->
+                            </form>
+                            <!-- ---------------------------------------------->
+                        </div>
+                    </div>
+                </section>
+                <!------------------------------ footer ----------------------->
 
-    <footer class="footer" id="footer">
-        <div class="nav">
-            <div class="container nav__container d-flex justify-content-between">
-                <div class="nav__plug"><i class="fas fa-plug"></i></div>
-                <p class="nav__text">Моя школа <span class="nav__verst">верстки</span></p>
-                <!--------------------------------------------------------->
-                <ul class="nav__list d-flex">
-                    <li class="nav__low">Все права защищены</li>
-                </ul>
-                <!----------------------------------------------------------->
-                <div class="nav__phone">
-                    <i class="fas fa-phone"></i>
-                    <a class="nav__number" href="tel:+756756412">+7(495) 567-564-12</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-
-
-
-</body>
-</html>
+                <footer class="footer" id="footer">
+                    <div class="nav">
+                        <div class="container nav__container d-flex justify-content-between">
+                            <div class="logo d-flex">
+                                <div class="logo__icon"><i class="fas fa-plug"></i></div>
+                                <p class="logo__text">Моя школа <span class="logo__verst">верстки</span></p>
+                            </div>
+                            <!------------------------------------------------->
+                            <ul class="nav__list d-flex">
+                                <li class="nav__low">Все права защищены</li>
+                            </ul>
+                            <!------------------------------------------------->
+                            <div class="nav__phone">
+                                <a class="nav__number" href="tel:+756756412"><i class="fas fa-phone">     </i>+7(495) 567-564-12</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </body>
+            </html>

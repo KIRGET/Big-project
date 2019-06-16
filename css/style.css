@@ -34,10 +34,6 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 1.45em;
 }
 
-a {
-    text-decoration: none;
-}
-
 .d-flex {
     display: flex;
 }
@@ -80,7 +76,7 @@ a {
     text-align: center;
     font-size: 30px;
     color: #fff;
-    padding: 9px 0px;
+    padding: 9px 12px;
 }
 
 
@@ -122,6 +118,8 @@ a {
     color: #fff;
 }
 
+/* ------------------------ phone ------------------------------ */
+
 .nav__phone {
     margin-left: auto;
 }
@@ -135,12 +133,8 @@ a {
     border-bottom: 2px dotted rgba(0,0,0,0.50);
 }
 
-.nav__low {
-    margin-left: 145px;
-    font-size: 12px;
-}
+/* ---------------- offer -------------------------------------- */
 
-/* ---------------------------------------------- */
 
 .fon__icon {
     font-size: 16px;
@@ -174,7 +168,6 @@ a {
     padding-bottom: 19px;
 }
 
-/* -------------------------------------------- */
 
 .form {
     border: 1px solid;
@@ -253,12 +246,12 @@ a {
 .form__input:focus {
     font-size: 14px;
     color: #000;
-    border-bottom: 1px solid #000;
+    border-bottom: color #000;
 }
 
 .form__input:focus::-webkit-input-placeholder {color:#000;}
 
-/*---------------------- /header section ------------------------ */
+/*---------------------- speaker ------------------------ */
 
 .know {
     padding: 124px 0 121px;
@@ -322,7 +315,7 @@ a {
     font-size: 14px;
 }
 
-/* ------------------------------------------------- */
+/* ------------------???????????????------------------------------- */
 
 .question {
     width: 600px;
@@ -335,9 +328,6 @@ a {
     padding-bottom: 18px;
 }
 
-.rubl {
-    font-weight: 700;
-}
 .question__text {
     font-size: 16px;
 }
@@ -372,20 +362,12 @@ a {
     padding-left: 16px;
 }
 
-/* .question__second {
-width: 661px;
-padding: 66px 22px 0px 129px;
-} */
-
-/* ------------------------------------------------------- */
+/* ------------------i show you -------------------------------- */
 
 .show  {
     background:  url('../img/firs.png') no-repeat center top / cover;
     padding: 102px 0 100px;
 }
-
-
-/* ------------------------------------------ */
 
 .can__title {
     width: 270px;
@@ -419,7 +401,7 @@ padding: 66px 22px 0px 129px;
 }
 
 
-/* ------------------------------------------------- */
+/* -------------- features ----------------------------------- */
 .if {
     padding: 90px 0 102px 0;
 }
@@ -479,7 +461,7 @@ padding: 66px 22px 0px 129px;
 
 }
 
-/* ------------------------------------------------------ */
+/* ------------------ master class ----------------------------- */
 
 .order__fon {
     background:  url('../img/second-bg.png') no-repeat center top / cover;
@@ -515,4 +497,11 @@ padding: 66px 22px 0px 129px;
 
 .order__y {
     margin-left: 28px;
+}
+
+/* ---------------------- footer -------------------------------- */
+
+.nav__low {
+    margin-left: 145px;
+    font-size: 12px;
 }
